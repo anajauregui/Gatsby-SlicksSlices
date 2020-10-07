@@ -1,8 +1,8 @@
-import React from 'react';
-import ItemGrid from '../components/ItemGrid';
-import LoadingGrid from '../components/LoadingGrid';
-import { HomePageGrid } from '../styles/Grids';
-import useLatestData from '../utils/useLatestData';
+import React from "react";
+import ItemGrid from "../components/ItemGrid";
+import LoadingGrid from "../components/LoadingGrid";
+import { HomePageGrid } from "../styles/Grids";
+import useLatestData from "../utils/useLatestData";
 
 function CurrentlySlicing({ slicemasters }) {
   return (
@@ -41,7 +41,7 @@ export default function HomePage() {
   return (
     <div className="center">
       <h1>The Best Pizza Downtown!</h1>
-      <p>Open 11am to 11pm Every Single Day</p>
+      <p>Open 11am to 11pm Every Day</p>
       <HomePageGrid>
         <CurrentlySlicing slicemasters={slicemasters} />
         <HotSlices hotSlices={hotSlices} />
