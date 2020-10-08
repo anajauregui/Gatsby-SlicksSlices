@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const MenuItemStyles = styled.div`
+  margin: 1rem 0;
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-rows: 1fr 1fr;

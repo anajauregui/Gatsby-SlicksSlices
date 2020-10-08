@@ -20,6 +20,7 @@ export default {
       options: {
         projectId: 'a7ig3jdd',
         dataset: 'production',
+        // overlayDrafts: true,
         // in dev when change is made in CMS & change is saved it will automatically be changed in gatsby site with no need for re-build
         watchMode: true,
         token: process.env.SANITY_TOKEN,
